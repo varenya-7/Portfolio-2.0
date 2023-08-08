@@ -42,7 +42,7 @@
    <a href="https://github.com/varenya-7" class="links"><i class="fa-brands fa-github top-icon" class="links"></i></a> 
     <a href="https://www.linkedin.com/in/varenya-singh-41a832219/" class="links"><i class="fa-brands fa-linkedin top-icon"></i></a>
   </div>
-  <div class="col col-lg-6 col-md-6 col-sm-6">
+  <div class="col col-lg-6 col-md-6 col-sm-6 ">
 
 <img src="Varenya.jpg" class = "main-image" alt="mee">
   </div>
@@ -55,7 +55,8 @@
   <div class="about-box"> 
   <h1>About Me</h1>
   <p>I am a dedicated and passionate Full Stack Developer with a strong drive to create innovative and user-centered web applications. With a deep curiosity for technology and its ever-evolving nature, I am constantly exploring new tools and frameworks to enhance my skill set. I thrive in dynamic and collaborative environments, where I can contribute my technical expertise while continuously learning from my peers. As a problem solver at heart, I approach challenges with a positive mindset, breaking down complex problems into manageable tasks to deliver efficient solutions. With a keen eye for detail and a commitment to producing high-quality code, I take pride in writing clean and maintainable software. Above all, I am motivated by the opportunity to leverage my technical abilities to make a meaningful impact and contribute to the success of cutting-edge projects.</p>
-<button  id = "CV" class="btn btn-outline-secondary d-inline-flex align-items-center" type="button">
+  <a href = "Resume-Varenya-Updated - 1.pdf" download = "CV">
+  <button  id = "CV-Varenya" class="btn btn-outline-secondary d-inline-flex align-items-center" type="button">
   Download CV     
   <i class="fa-solid fa-cloud-arrow-down icon"></i>
 </div>
@@ -192,16 +193,16 @@
         <div class="topic-text">CONTACT ME</div>
       <form action="#">
         <div class="input-box">
-          <input type="text" placeholder="Enter your name">
+          <input type="text" id="name" placeholder="Enter your name">
         </div>
         <div class="input-box">
-          <input type="text" placeholder="Enter your email">
+          <input type="text" id= "email" placeholder="Enter your email">
         </div>
         <div class="input-box message-box">
           
         </div>
         <div class="button">
-          <input type="button" value="Send Now" >
+          <input type="button" value="Send Now" onclick="UserReacted()" >
         </div>
       </form>
     </div>
@@ -239,5 +240,6 @@
     <!-- Footer -->
   </section>
 </section>
+<script src="app.js"></script>
 </body>
 </html>
