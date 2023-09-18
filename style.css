@@ -48,6 +48,10 @@ p{
     margin-left: 5vw;
   
 }
+.col-sm-6 img{
+  margin-top: 1rem;
+  margin-left: 0rem;
+}
 .row{
     padding: 3% 10%;
 }
@@ -344,6 +348,5 @@ margin-top: 2rem;
 }
 
 .links{
-color: #fff;
-  
+color: #fff; 
 }
